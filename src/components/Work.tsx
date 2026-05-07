@@ -61,13 +61,20 @@ const Work = () => {
 
                   <div>
                     <h4>Project Name</h4>
-                    <p>Category</p>
+                    <p>Vision Frame | editor.dmg studio creator</p>
                   </div>
                 </div>
                 <h4>Tools and features</h4>
-                <p>Javascript, TypeScript, React, Threejs</p>
+                <p>Premiere Pro, After Effects, Blender, Photoshop</p>
               </div>
-              <WorkImage image="/images/placeholder.webp" alt="" />
+              <video
+                src={`/Video/edit${index + 1}.mp4`}
+                autoPlay
+                muted
+                loop
+                playsInline
+                className="project-video"
+                />
             </div>
           ))}
         </div>
